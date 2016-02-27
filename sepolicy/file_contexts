@@ -1,0 +1,26 @@
+# label graphics device with a new type, we need
+# to allow write operation from appdomain
+/dev/vr                 u:object_r:gpu_device:s0
+
+/dev/nx_vpu             u:object_r:video_device:s0
+/dev/nxp-scaler         u:object_r:video_device:s0
+/dev/v4l-subdev[0-9]*   u:object_r:video_device:s0
+/dev/media0             u:object_r:video_device:s0
+/dev/video0             u:object_r:video_device:s0
+/dev/video1             u:object_r:video_device:s0
+/dev/video2             u:object_r:video_device:s0
+/dev/video3             u:object_r:video_device:s0
+/dev/video4             u:object_r:video_device:s0
+/dev/video5             u:object_r:video_device:s0
+/dev/video6             u:object_r:video_device:s0
+/dev/video7             u:object_r:video_device:s0
+/dev/video8             u:object_r:video_device:s0
+/dev/video9             u:object_r:video_device:s0
+/dev/video10            u:object_r:video_device:s0
+/dev/block/mmcblk*      u:object_r:block_device:s0
+/dev/block/mmcblk1p7    u:object_r:user_block_device:s0
+
+/dev/ttySAC0            u:object_r:tty_device:s0
+/dev/ttySAC1            u:object_r:hci_attach_dev:s0
+/dev/rfkill             u:object_r:rfkill_device:s0
+/dev/backlight-1wire    u:object_r:sensors_device:s0
