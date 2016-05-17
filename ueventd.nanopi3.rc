@@ -23,3 +23,10 @@
 /dev/rfkill               0666   bluetooth  net_bt_stack
 
 /dev/backlight-1wire      0660   system     system
+
+# uart
+/dev/ttySAC2              0666   system     system
+/dev/ttySAC3              0666   system     system
+/dev/ttySAC4              0666   system     system
+/dev/ttyUSB*              0666   system     system
+/dev/ttyGS*               0660   system     system
